@@ -15,7 +15,7 @@ class App extends React.Component {
     this.state = {
       title: 'Garrett Love',
       headerLinks: [
-        { title: 'Home', path: '/' },
+        //{ title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
         { title: 'Contact', path: '/contact' }
       ],
@@ -44,13 +44,13 @@ class App extends React.Component {
               <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
               <Navbar.Collapse>
                 <Nav className="ml-auto">
-                  <Link className="nav-link" to="/about">About</Link>
+                  <Link className="nav-link" to="/portfolio">About</Link>
                   <Link className="nav-link" to="/contact">Contact</Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
 
-            <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
+            <Route path="/portfolio" render={() => <AboutPage title={this.state.about.title} />} />
             <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
           </div>
         </Container>
