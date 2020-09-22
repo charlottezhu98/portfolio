@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
 import Footer from './components/Footer';
-
+import NavbarBrand from 'react-bootstrap/NavbarBrand'
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -55,6 +55,14 @@ class App extends React.Component {
 
             <Route path="/portfolio" render={() => <AboutPage title={this.state.about.title} />} />
             <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle}/>} />
+            
+            <div className="fixed-bottom">  
+              <Navbar variant="lighht">
+                <Container>
+                    <NavbarBrand>Made by Charlotte Zhu</NavbarBrand>
+                </Container>
+              </Navbar>
+            </div>
           </div>
         </Container>
       </Router>

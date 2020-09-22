@@ -21,5 +21,7 @@ body, html {
 
 
 .Footer {
-  background: rgba(245, 242, 242, 0.6);   
+  background: rgba(245, 242, 242, 0.6);
+  color:rgb(165, 151, 151);
+  font-size: 14px;
 }
