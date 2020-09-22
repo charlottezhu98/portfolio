@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5f836f93.chunk.css",
-    "main.js": "/portfolio/static/js/main.404b2f12.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.404b2f12.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.fe072454.chunk.css",
+    "main.js": "/portfolio/static/js/main.9772ffbd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9772ffbd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.ba6040c7.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.ba6040c7.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/portfolio/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.fb4a7f42.chunk.js": "/portfolio/static/js/2.fb4a7f42.chunk.js",
-    "static/js/2.fb4a7f42.chunk.js.map": "/portfolio/static/js/2.fb4a7f42.chunk.js.map",
+    "static/js/2.646873c4.chunk.js": "/portfolio/static/js/2.646873c4.chunk.js",
+    "static/js/2.646873c4.chunk.js.map": "/portfolio/static/js/2.646873c4.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.01d71cb23438593a7a910afbc62b105c.js": "/portfolio/precache-manifest.01d71cb23438593a7a910afbc62b105c.js",
+    "precache-manifest.773a9b1277754c2fdf0e8367973af042.js": "/portfolio/precache-manifest.773a9b1277754c2fdf0e8367973af042.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/portfolio/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.5f836f93.chunk.css.map": "/portfolio/static/css/main.5f836f93.chunk.css.map",
-    "static/js/2.fb4a7f42.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fb4a7f42.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/portfolio/static/media/Background.d77aac2a.jpg",
+    "static/css/main.fe072454.chunk.css.map": "/portfolio/static/css/main.fe072454.chunk.css.map",
+    "static/js/2.646873c4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.646873c4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/Background.992fe04e.jpg",
     "static/media/KZ_resume.pdf": "/portfolio/static/media/KZ_resume.f1209853.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.ba6040c7.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.fb4a7f42.chunk.js",
-    "static/css/main.5f836f93.chunk.css",
-    "static/js/main.404b2f12.chunk.js"
+    "static/js/2.646873c4.chunk.js",
+    "static/css/main.fe072454.chunk.css",
+    "static/js/main.9772ffbd.chunk.js"
   ]
 }
