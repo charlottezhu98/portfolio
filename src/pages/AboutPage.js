@@ -16,11 +16,11 @@ function AboutPage(props) {
 
             <p>I recently graduated from University of British Columbia where I studied Mathematical Sciences.</p>
 
-            <p>I am also a software developer who is constantly learning new things. Currently I am learning React</p>
+            <p>I am also a software developer who is constantly learning new things. Currently I am learning React.</p>
 
-            <p>You can read more about my experience and skills in the PDF: <a href = {Pdf} target = "_blank">Resume</a></p>
+            <p>You can read more about my experience and skills in the PDF: <a href = {Pdf} rel="noopener noreferrer" target = "_blank">Resume</a></p>
 
-            <p>Thanks for visiting! You can find me on : <Button variant="outline-primary" target="_blank" href="https://www.linkedin.com/in/kexin-zhu-910627186">Linkedin  <Badge variant="primary">in</Badge>
+            <p>Thanks for visiting! You can find me on : <Button variant="outline-light" target="_blank" href="https://www.linkedin.com/in/kexin-zhu-910627186">Linkedin  <Badge variant="primary">in</Badge>
                 <span className="sr-only">unread messages</span>
             </Button>
             </p>            

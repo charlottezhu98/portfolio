@@ -2,7 +2,7 @@
   text-align: center;
 }
 .navbar {
-  background: rgba(245, 242, 242, 0.6);   
+  background: rgba(225, 217, 217, 0.6);   
 }
 
 body, html {
@@ -17,6 +17,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -24,4 +25,9 @@ body, html {
   background: rgba(245, 242, 242, 0.6);
   color:rgb(165, 151, 151);
   font-size: 14px;
+}
+
+.email{
+  color:rgb(230, 209, 209);
+  background-color:rgba(149, 108, 160, 0.6);
 }

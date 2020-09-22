@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
-import Footer from './components/Footer';
 import NavbarBrand from 'react-bootstrap/NavbarBrand'
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -42,7 +41,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           <div className="bg">
 
-            <Navbar className="border-bottom" bg="semi-transparent" expand="lg">
+            <Navbar className="border-bottom" variant="dark" expand="lg">
               <Navbar.Brand>Charlotte Zhu</Navbar.Brand>
               <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
               <Navbar.Collapse>
@@ -57,7 +56,7 @@ class App extends React.Component {
             <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle}/>} />
             
             <div className="fixed-bottom">  
-              <Navbar variant="lighht">
+              <Navbar variant="dark">
                 <Container>
                     <NavbarBrand>Made by Charlotte Zhu</NavbarBrand>
                 </Container>

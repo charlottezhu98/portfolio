@@ -71,7 +71,7 @@ class ContactPage extends React.Component {
                 <Hero title={this.props.title} />
 
                 <Content>
-                    <h4 className="py-2">Interested in more information? Shoot me an email blow or to coco99166@outlook.com directly</h4>
+                    <h4 className="py-2">Interested in more information? Feel free to shoot me an email below or to <span  className="email">coco99166@outlook.com </span>directly</h4>
 
                     <Form onSubmit={this.handleSubmit}>
                         <Form.Group>
