@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
+import Footer from './components/Footer';
+
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
@@ -28,7 +30,8 @@ class App extends React.Component {
         title: 'About Me'
       },
       contact: {
-        title: 'Let\'s Talk'
+        title: 'Let\'s Talk',
+        subTitle: 'Interested in more information? Shoot me an email blow or to coco99166@outlook.com directly!'
       }
     }
   }
@@ -51,7 +54,7 @@ class App extends React.Component {
             </Navbar>
 
             <Route path="/portfolio" render={() => <AboutPage title={this.state.about.title} />} />
-            <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
+            <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle}/>} />
           </div>
         </Container>
       </Router>

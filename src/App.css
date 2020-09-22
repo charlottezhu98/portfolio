@@ -7,11 +7,19 @@
 
 body, html {
   height: 100%;
-  }
-  .bg {
+}
+  
+.bg {
   background-image: url("assets/images/Background.jpg");
+  background-color: gainsboro;
   height: 100vh;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
+  background-attachment: fixed;
+}
+
+
+.Footer {
+  background: rgba(245, 242, 242, 0.6);   
+}
