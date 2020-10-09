@@ -2,7 +2,7 @@
   text-align: center;
 }
 .navbar {
-  background: rgba(225, 217, 217, 0.6);   
+  background: rgba(225, 217, 217, 0.35);   
 }
 
 body, html {
@@ -22,7 +22,7 @@ body, html {
 
 
 .Footer {
-  background: rgba(245, 242, 242, 0.6);
+  background: rgba(245, 242, 242, 0.35);
   color:rgb(165, 151, 151);
   font-size: 14px;
 }
